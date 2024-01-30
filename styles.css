@@ -75,7 +75,7 @@ label[for="department-select"] {
     display: inherit;
 }
 
-label[for="time-select"]{
+label[for="time-select"] {
     display: inherit;
 }
 
@@ -137,7 +137,7 @@ img[alt="menu"] {
     #member-btn {
         position: absolute;
         right: 160px;
-    top: 33px;
+        top: 33px;
     }
 
     #login-btn {
@@ -546,7 +546,7 @@ img[alt="client"] {
 
 .payment>div {
     padding: 90px;
-    width: 24%;
+    width: 31%;
 }
 
 
@@ -789,7 +789,7 @@ form input {
     border-style: none;
 }
 
-#time-select{
+#time-select {
     height: 42px;
     width: 451px;
     background-color: #e4e5e6;
@@ -1034,7 +1034,7 @@ button[name="contact-us"] {
     width: 100%;
     background-color: white;
     padding: 35px;
-    
+
 }
 
 .footer h2 {
@@ -1046,7 +1046,7 @@ button[name="contact-us"] {
 }
 
 .footer>div {
-    width: 100%;
+    width: 49%;
     padding-bottom: 15px;
     padding: 25px;
 }
@@ -1076,9 +1076,11 @@ button[name="contact-us"] {
         flex-wrap: wrap;
         padding: 70px;
     }
+
     #contact-btn-div {
         padding-top: 20px;
     }
+
     button[name="contact-us"] {
         font-size: 20px;
     }
@@ -1087,8 +1089,11 @@ button[name="contact-us"] {
 
 @media screen and (max-width: 992px) and (min-width:786px) {
     .footer {
+        padding-top: 15px;
         width: 100%;
-
+        top: 278px;
+        right: 0;
+        flex-wrap: wrap;
     }
 
     .consulting {
@@ -1100,20 +1105,27 @@ button[name="contact-us"] {
         flex-wrap: wrap;
         padding: 68px;
     }
+
     #contact-btn-div {
         padding-top: 20px;
     }
+
     button[name="contact-us"] {
         font-size: 20px;
+    }
+    .touch {
+        margin: auto;
     }
 }
 
 @media screen and (max-width: 786px) and (min-width:600px) {
     .footer {
+        padding-top: 15px;
         width: 100%;
-
+        top: 278px;
+        right: 0;
+        flex-wrap: wrap;
     }
-
     .consulting {
         display: flex;
         justify-content: space-evenly;
@@ -1123,11 +1135,16 @@ button[name="contact-us"] {
         flex-wrap: wrap;
         padding: 40px;
     }
+
     #contact-btn-div {
         padding-top: 20px;
     }
+
     button[name="contact-us"] {
         font-size: 20px;
+    }
+    .touch {
+        margin: auto;
     }
 }
 
@@ -1136,7 +1153,8 @@ button[name="contact-us"] {
         padding-top: 15px;
         width: 100%;
         top: 278px;
-        right: 0
+        right: 0;
+        flex-wrap: wrap;
     }
 
     .comp {
@@ -1150,25 +1168,28 @@ button[name="contact-us"] {
         padding-bottom: 25px;
         flex-wrap: wrap;
         padding: 59px;
-        
-
     }
 
     #contact-btn-div {
         padding-top: 20px;
     }
+
     button[name="contact-us"] {
         font-size: 20px;
     }
+
+    .touch {
+        margin: auto;
+    }
 }
 
-.rights{
+.rights {
     display: flex;
     justify-content: space-evenly;
     position: absolute;
     top: 594px;
 }
 
-.social-media-icons{
+.social-media-icons {
     display: flex;
 }
