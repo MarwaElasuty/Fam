@@ -18,7 +18,7 @@ body {
 
 .image-container>.heading {
     position: relative;
-    top: 170px;
+    top: 116px;
     width: 100%;
     padding: 20px;
     color: white;
@@ -45,7 +45,7 @@ ul {
 
 .nav-btns {
     display: flex;
-    column-gap: 10px;
+    column-gap: 4px;
 }
 
 .nav-btns button {
@@ -138,11 +138,13 @@ img[alt="menu"] {
         position: absolute;
         right: 160px;
         top: 33px;
+        font-size: 26px;
     }
 
     #login-btn {
         padding-left: 10px;
         padding-right: 10px;
+        font-size: 26px;
 
     }
 }
@@ -233,7 +235,7 @@ img[alt="menu"] {
     column-gap: 10px;
     flex-wrap: wrap;
     justify-content: center;
-    padding-top: 25px;
+    padding-top: 18px;
 }
 
 .content-btns button {
@@ -258,7 +260,7 @@ img[alt="menu"] {
     justify-content: space-evenly;
     flex-wrap: wrap;
     position: relative;
-    bottom: 80px;
+    bottom: 52px;
     row-gap: 15px;
 }
 
@@ -268,7 +270,8 @@ img[alt="menu"] {
 
 
 .absolute-cards-div p {
-    line-height: 25px;
+    line-height: 45px;
+    font-size: 21px;
 }
 
 .absolute-cards-div>div {
@@ -295,8 +298,28 @@ img[alt="menu"] {
     }
 
     .absolute-cards-div>div {
-        width: 94%;
-    }
+        width: 66%;
+        font-size: 29px;
+        }
+
+        .heading>h1{
+            font-size:76px;
+        }
+
+        .heading p{
+            font-size: 38px;
+        }
+
+        #learn-more-btn{
+            font-size: 29px;
+        }
+        #quote-btn{
+            font-size: 29px;
+        }
+
+        .absolute-cards-div p{
+            font-size: 40px;
+        }
 }
 
 @media screen and (max-width: 786px) and (min-width:600px) {
@@ -337,6 +360,9 @@ img[alt="menu"] {
     width: 30%;
 }
 
+.offers p{
+    font-size: 21px;
+}
 .offers img {
     padding-bottom: 5px;
 }
@@ -356,6 +382,7 @@ img[alt="menu"] {
 @media screen and (max-width: 992px) and (min-width:786px) {
     .offers>div {
         width: 94%;
+        font-size: 40px;
     }
 }
 
@@ -403,7 +430,7 @@ img[alt="menu"] {
 @media screen and (max-width: 992px) and (min-width:786px) {
     .industry>p {
         width: 89%;
-        font-size: 23px;
+        font-size: 50px;
 
     }
 }
@@ -604,7 +631,7 @@ img[alt="dollar-sign"] {
 
 .correct-w-text-div>p {
     text-align: left;
-
+    font-size: 26px;
 }
 
 /* payment media query */
@@ -875,7 +902,7 @@ button[name="book-appoint"] {
 
     .branches p {
         width: 100%;
-        font-size: 25px;
+        font-size: 28px;
     }
 
     img[alt="world-map"] {
@@ -1007,8 +1034,17 @@ button[name="book-appoint"] {
 
 }
 
-.consulting h2 {
+.consulting  {
     padding-bottom: 15px;
+}
+
+.consult-heading > h2{
+    font-size: 30px;
+}
+
+.consult-heading > p{
+    font-size: 23px;
+
 }
 
 button[name="contact-us"] {
@@ -1100,7 +1136,7 @@ button[name="contact-us"] {
         display: flex;
         justify-content: space-evenly;
         position: relative;
-        top: 1013px;
+        top: 1066px;
         margin-bottom: 15px;
         flex-wrap: wrap;
         padding: 68px;
